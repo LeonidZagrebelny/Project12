@@ -3,9 +3,9 @@ public class Main {
         float height = 1.75f;  // Рост в метрах
         float weight = 85.5f;  // Вес в килограммах
 
-        BmiService Ind = new BmiService();
+        BmiService massIndex = new BmiService();
 
-        float Result = Ind.calculate(height, weight);
-        System.out.println("индекс массы тела = " + (int) Result);
+        float result = massIndex.calculate(height, weight);
+        System.out.println("индекс массы тела = " + result);
     }
 }
